@@ -80,17 +80,17 @@ class _TabScreenState extends State<TabScreen> {
           items: [
             BottomNavigationBarItem(
                 icon: Icon(Icons.home, color: Colors.green),
-                title: Text("Home"),
+                label: "Home",
                 backgroundColor: Colors.blueGrey[900],
                 activeIcon: Icon(Icons.dashboard, color: Colors.green[200])),
             BottomNavigationBarItem(
                 icon: Icon(Icons.add_circle_outline, color: Colors.purple),
-                title: Text("New Todo"),
+                label: "New Todo",
                 backgroundColor: Colors.blueGrey[900],
                 activeIcon: Icon(Icons.add_circle, color: Colors.purple[200])),
             BottomNavigationBarItem(
                 icon: Icon(Icons.star_border, color: Colors.yellow),
-                title: Text("Favourites"),
+                label: "Favourites",
                 backgroundColor: Colors.blueGrey[900],
                 activeIcon: Icon(Icons.star, color: Colors.yellow[200])),
           ]),

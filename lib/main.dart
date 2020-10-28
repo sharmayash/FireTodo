@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
             auth.userId,
             previousTodos == null ? [] : previousTodos.todoList,
           ),
-          create: (BuildContext ctx) {},
+          create: null,
         )
       ],
       child: MaterialApp(
